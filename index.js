@@ -13,6 +13,7 @@
  * @param {Number} armor 防御力
  * @param {Number} armorPenetration 防御力貫通
  * @return {Number} ダメージ
+ * aa
  */
 function effectiveDamage(power, armor, armorPenetration) {
   let effectiveArmor = normalize(armor) - normalize(armorPenetration);
